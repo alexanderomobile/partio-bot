@@ -1,16 +1,28 @@
+🇷🇺 [Русский](README.md) · 🇬🇧 [English](README.en.md) · 🇪🇸 [Español](README.es.md)
+
 # PartioBot
 
-**Telegram-бот для учёта и деления расходов** в группах.
+**Telegram-бот для учёта и деления расходов**
 
 > Showcase без кода. Исходники — приватный репозиторий.
 
+---
+
 ## Задача
 
-События, приглашения, расходы, балансы и минимизация переводов.
+Telegram-бот для учёта и деления расходов.
+
+## Функционал
+
+События, коды приглашения, расходы, балансы, минимизация переводов, групповые чаты.
+
+## Польза для бизнеса
+
+Экономит время на расчётах «кто кому должен» после поездок и мероприятий, убирает таблицы в чатах.
 
 ## Стек
 
-Python · aiogram 3 · FastAPI · SQLAlchemy · MySQL · Docker
+Python · aiogram 3 · FastAPI · SQLAlchemy · MySQL
 
 ## Архитектура
 
@@ -19,10 +31,11 @@ Python · aiogram 3 · FastAPI · SQLAlchemy · MySQL · Docker
 ## Запуск
 
 ```bash
-pip install -e ".[dev]"
-partiobot
+pip install -e ".[dev]" && partiobot
 ```
 
-**Case Study:** [portfolio](https://github.com/alexanderomobile/portfolio/blob/main/case-studies/02-partio-bot.md)
+**Статус:** ✅ Завершён
+
+**Case Study:** [02-partio-bot.md](https://github.com/alexanderomobile/portfolio/blob/main/case-studies/ru/02-partio-bot.md)
 
 [@alexanderomobile](https://github.com/alexanderomobile)
